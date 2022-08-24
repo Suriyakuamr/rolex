@@ -1,0 +1,83 @@
+.im{
+    position: absolute;
+    
+}
+.im img{
+    width: 1335px;
+    height: 550px;
+    margin-left: 5px;
+}
+.bottom{
+    position: absolute;
+    top: 20px;
+    left: 58px;
+     
+}
+.bottom h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right,rgb(184, 153, 159),orange,violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 47px;
+    
+}
+.rightbootom
+{
+    position: absolute;
+    bottom: 320px;
+    left: 56px;
+     color: black;
+}
+.rightbootom h1{
+      display: flex;
+      justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(to left,rgb(151, 53, 151),rgb(71, 148, 173));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.rightbootom h3{
+    margin-left: 40px;
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(to left,rgb(94, 23, 94),rgb(16, 75, 95));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.leftdown
+{
+    position: absolute;
+     bottom:130px;
+    right: 26px;
+    color: white;
+}
+.leftdown img{
+    height: 330px;
+    width: 300px;
+}
+.cont{
+    position: absolute;
+    left: 110px;
+    top: 250px;
+}
+.cont p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+@media screen and (max-width:1200px) {
+    .cont{
+        width: 100%;
+        text-align: center;
+    }
+     .im img{
+        width: 450px;
+        height: 400px;
+        margin-right: 20px;
+     }
+     .bottom{
+        position: absolute;
+        top: 10px;
+        left: 38px;
+         
+    }
+     
+}
